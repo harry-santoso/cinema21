@@ -3,7 +3,7 @@ import "./MovieCardStyle.css";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import { Link } from "react-router-dom";
 
-function MovieCard(movie) {
+function MovieCard({ movie }) {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -31,6 +31,7 @@ function MovieCard(movie) {
               src={`https://image.tmdb.org/t/p/original${
                 movie ? movie.poster_path : ""
               }`}
+              alt="backdrop"
             />
             <div className="cards__overlay">
               <div className="card__title">
