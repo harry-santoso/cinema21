@@ -25,10 +25,11 @@ function Home() {
         infiniteLoop={true}
         showStatus={false}
       >
-        {popularMovies.map((movie) => (
+        {popularMovies.map((movie, ind) => (
           <Link
             style={{ textDecoration: "none", color: "white" }}
             to={`/movie/${movie.id}`}
+            key={ind}
           >
             <div className="posterImage">
               <img

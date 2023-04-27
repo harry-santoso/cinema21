@@ -29,8 +29,8 @@ function MovieList() {
     <div className="movie__list">
       <h2 className="list__title">{(type ? type : "POPULAR").toUpperCase()}</h2>
       <div className="list__cards">
-        {movieList.map((movie) => (
-          <MovieCard movie={movie} />
+        {movieList.map((movie, ind) => (
+          <MovieCard key={ind} movie={movie} />
         ))}
       </div>
     </div>
