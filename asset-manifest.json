@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cinema21/static/css/main.f69985c5.css",
+    "main.js": "/cinema21/static/js/main.92f47457.js",
+    "static/media/logo.webp": "/cinema21/static/media/logo.91d51c67cf328b6fc44e.webp",
+    "index.html": "/cinema21/index.html",
+    "main.f69985c5.css.map": "/cinema21/static/css/main.f69985c5.css.map",
+    "main.92f47457.js.map": "/cinema21/static/js/main.92f47457.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f69985c5.css",
+    "static/js/main.92f47457.js"
+  ]
+}
